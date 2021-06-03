@@ -67,28 +67,27 @@ const (
  | |_| |/ _ \ \ /\ / / _ \ '__/ __/ __|
  |  _| | (_) \ V  V /  __/ |  \__ \__ \
  |_| |_|\___/ \_/\_/ \___|_|  |___/___/
-
 `
 	defaultMessageTplMode = tb.ModeHTML
-	defaultMessageTpl     = `<b>{{.SourceTitle}}</b>{{ if .PreviewText }}
+	defaultMessageTpl     = `{{ if .PreviewText }}
 ---------- Preview ----------
 {{.PreviewText}}
 -----------------------------
 {{- end}}{{if .EnableTelegraph}}
 {{.ContentTitle}} <a href="{{.TelegraphURL}}">Telegraph</a> | <a href="{{.RawLink}}">原文</a>
 {{- else }}
-<a href="{{.RawLink}}">{{.ContentTitle}}</a>
+/torrent {{.RawLink}}
 {{- end }}
 {{.Tags}}
 `
-	defaultMessageMarkdownTpl = `** {{.SourceTitle}} **{{ if .PreviewText }}
+	defaultMessageMarkdownTpl = `{{ if .PreviewText }}
 ---------- Preview ----------
 {{.PreviewText}}
 -----------------------------
 {{- end}}{{if .EnableTelegraph}}
 {{.ContentTitle}} [Telegraph]({{.TelegraphURL}}) | [原文]({{.RawLink}})
 {{- else }}
-[{{.ContentTitle}}]({{.RawLink}})
+/torrent {{.RawLink}})
 {{- end }}
 {{.Tags}}
 `
