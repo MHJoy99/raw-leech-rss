@@ -1,0 +1,13 @@
+{
+    "name": "flowerss",
+    "description": "Telegram rss for channel and bot",
+    "keywords": [
+      "bot",
+      "telegram",
+      "rss"
+    ],
+    "repository": "https://github.com/yourtulloh/flowerss",
+    "website": "https://t.me/Drivecok",
+    "success_url": "https://t.me/Drivecok",
+    "stack": "container"
+}
