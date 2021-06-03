@@ -1,0 +1,30 @@
+bot_token: 1729469840:AAFi6YCB24MVdYS_IjVRSw5iW65WmuavhZc
+#telegraph_token:
+#telegraph_account:
+#telegraph_author_name:
+#telegraph_author_url:
+socks5:
+update_interval: 100
+user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+
+mysql:
+  host: yvu4xahse0smimsc.chr7pe7iynqr.eu-west-1.rds.amazonaws.com	
+  port: 3306
+  user: z3h4i143cg378rvs
+  password: cptkymu2mpk35y9b
+  database: m4jfyhaqhxro3e8k
+
+telegram:
+  endpoint:
+
+log:
+  level: release
+  db_log: false # 打印数据库日志，false则只会打印数据库错误日志
+
+#  file: ./flowerss.log
+
+sqlite:
+  path: ./data.db
+
+allowed_users:
+  - 1181409600
