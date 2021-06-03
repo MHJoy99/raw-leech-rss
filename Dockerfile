@@ -10,5 +10,5 @@ COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=builder /flowerss/flowerss-bot /bin/
 VOLUME /root/.flowerss
 WORKDIR /root/.flowerss
+COPY config.yml /root/.flowerss/
 ENTRYPOINT ["/bin/flowerss-bot"]
-
