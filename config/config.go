@@ -76,7 +76,7 @@ const (
 {{- end}}{{if .EnableTelegraph}}
 {{.ContentTitle}} <a href="{{.TelegraphURL}}">Telegraph</a> | <a href="{{.RawLink}}">原文</a>
 {{- else }}
-/torrent {{.RawLink}}
+/t {{.RawLink}}
 {{- end }}
 {{.Tags}}
 `
@@ -87,7 +87,7 @@ const (
 {{- end}}{{if .EnableTelegraph}}
 {{.ContentTitle}} [Telegraph]({{.TelegraphURL}}) | [原文]({{.RawLink}})
 {{- else }}
-/torrent {{.RawLink}})
+/t {{.RawLink}})
 {{- end }}
 {{.Tags}}
 `
