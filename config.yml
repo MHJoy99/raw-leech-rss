@@ -8,11 +8,11 @@ update_interval: 100
 user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
 
 mysql:
-  host: yvu4xahse0smimsc.chr7pe7iynqr.eu-west-1.rds.amazonaws.com
-  port: 3306
-  user: ui0dg49c137tfcmy
-  password: fvcn8b6e7wjotqwj
-  database: friwp3ki249wk9ml
+  host: containers-us-west-8.railway.app
+  port: 7307
+  user: root
+  password: 6laF0Ij64mwyIuSb9mZA
+  database: railway
 
 telegram:
   endpoint:
