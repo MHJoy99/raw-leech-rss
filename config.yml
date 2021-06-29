@@ -4,7 +4,7 @@ bot_token: 1729469840:AAFi6YCB24MVdYS_IjVRSw5iW65WmuavhZc
 #telegraph_author_name:
 #telegraph_author_url:
 socks5:
-update_interval: 100
+update_interval: 50
 user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
 
 mysql:
