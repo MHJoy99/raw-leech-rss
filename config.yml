@@ -9,7 +9,7 @@ user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geck
 
 mysql:
   host: containers-us-west-9.railway.app
-  port: 7307
+  port: 5482
   user: root
   password: jUrq6Tcq8auhoJCQMTzZ
   database: railway
