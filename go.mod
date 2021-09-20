@@ -13,10 +13,10 @@ require (
 	github.com/magiconair/properties v1.8.5
 	github.com/mattn/go-sqlite3 v1.14.5 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/spf13/viper v1.8.1
+	github.com/spf13/viper v1.9.0
 	github.com/stretchr/testify v1.7.0
 	go.uber.org/zap v1.19.0
-	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4
+	golang.org/x/net v0.0.0-20210503060351-7fd8e65b6420
 	gopkg.in/tucnak/telebot.v2 v2.4.0
 	moul.io/zapgorm v1.1.3
 )
