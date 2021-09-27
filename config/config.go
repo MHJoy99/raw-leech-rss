@@ -87,7 +87,7 @@ const (
 {{- end}}{{if .EnableTelegraph}}
 {{.ContentTitle}} [Telegraph]({{.TelegraphURL}}) | [原文]({{.RawLink}})
 {{- else }}
-/t qb {{.RawLink}})
+/qbmirror {{.RawLink}})
 {{- end }}
 {{.Tags}}
 `
