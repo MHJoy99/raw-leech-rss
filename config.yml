@@ -1,4 +1,4 @@
-bot_token: 1945579089:AAHf3AQcRJ6JxBIVz9G7pfTwhkFSDtFj3us
+bot_token: 1929291470:AAHQjROCn0UCPmXEWQAQ-FAf5I8h8VwJRN0
 #telegraph_token:
 #telegraph_account:
 #telegraph_author_name:
@@ -27,4 +27,4 @@ sqlite:
   path: ./data.db
 
 allowed_users:
-  - 1181409600
+  - 1101892352
